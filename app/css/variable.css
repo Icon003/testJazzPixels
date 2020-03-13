@@ -1,0 +1,20 @@
+:root {
+    --white-color: #FFFFFF;
+    --grey-color: #D5D5D5;
+    --grey-color-map-label: #737373;
+    --orange-color: #FF781C;
+    --blue-color: #2459E2;
+    --line-color: #2A2A2A;
+    --background-black-color: #000000;
+    --background-dark-color: #151515;
+    --background-glider-dot: #333333;
+	--orange-gradient: linear-gradient(26.97deg, #FF971C 20.96%, #FF6600 104.08%);
+	--orange-bookmark-gradient: linear-gradient(26.66deg, #FF971C 20.96%, #FF6600 104.08%);
+	--shadow-button-map: 0px 4px 6px rgba(0, 0, 0, 0.25);
+	
+    --SF-Compact-Display-Heavy: "SF Compact Display Heavy";
+    --SF-Compact-Display-Bold: "SF Compact Display Bold";
+    --SF-Compact-Display-Semibold: "SF Compact Display Semibold";
+    --SF-Compact-Display-Regular: "SF Compact Display Regular";
+    --Uni-Neue-Heavy: "Uni Neue Heavy";
+}

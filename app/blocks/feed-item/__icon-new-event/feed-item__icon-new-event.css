@@ -1,0 +1,8 @@
+.feed-item__icon-new-event {
+	width: 11px;
+	height: 11px;
+	margin-left: auto;
+
+	border-radius: 100%;
+	background-color: var(--blue-color);
+}

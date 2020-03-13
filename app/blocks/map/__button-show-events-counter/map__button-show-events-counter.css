@@ -1,0 +1,23 @@
+.map__button-show-events-counter {
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+
+	width: auto;
+	min-width: 15px;
+	height: 15px;
+	margin-left: 76.19%;
+	padding-right: 10%;
+	padding-left: 10%;
+
+	position: absolute;
+	top: 0;
+
+	font-family: var(--SF-Compact-Display-Semibold);
+	font-size: 8px;
+
+	color: var(--grey-color);
+	border-radius: 7.5px;
+	background: var(--blue-color);
+}

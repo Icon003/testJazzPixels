@@ -1,0 +1,7 @@
+.event-menu {
+	height: 100%;
+
+	position: relative;
+
+	transition: transform 1s;
+}

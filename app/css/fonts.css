@@ -1,0 +1,25 @@
+@font-face {
+	font-family: "SF Compact Display Heavy";
+
+	src: url("../fonts/SFUIDisplay-Heavy.woff");
+}
+@font-face {
+	font-family: "SF Compact Display Bold";
+
+	src: url("../fonts/SFUIDisplay-Bold.woff");
+}
+@font-face {
+	font-family: "SF Compact Display Semibold";
+
+	src: url("../fonts/SFUIDisplay-Semibold.woff");
+}
+@font-face {
+	font-family: "SF Compact Display Regular";
+
+	src: url("../fonts/SFUIDisplay-Regular.woff");
+}
+@font-face {
+	font-family: "Uni Neue Heavy";
+
+	src: url("../fonts/UniNeueHeavy.woff");
+}

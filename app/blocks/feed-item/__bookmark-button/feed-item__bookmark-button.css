@@ -1,0 +1,13 @@
+.feed-item__bookmark-button {
+	width: 128px;
+	height: 100%;
+
+	position: absolute;
+
+	border: none;
+	background: var(--orange-bookmark-gradient);
+
+	transition: transform 0.3s;
+	transform: matrix(1, 0, 0, -1, 0, 0);
+	transform: translateX(-200%);
+}

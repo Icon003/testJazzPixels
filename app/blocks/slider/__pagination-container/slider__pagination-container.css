@@ -1,0 +1,15 @@
+.slider__pagination-container {
+	margin-top: 8px;
+}
+
+.glider-dot {
+	width: 6px;
+	height: 6px;
+	margin: 3px;
+
+	background: var(--background-glider-dot);
+}
+
+.glider-dot--active {
+	background: var(--orange-color);
+}

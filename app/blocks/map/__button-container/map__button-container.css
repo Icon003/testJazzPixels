@@ -1,0 +1,14 @@
+.map__button-container {
+	display: flex;
+
+	justify-content: space-between;
+
+	width: 100%;
+	padding-right: 24px;
+	padding-left: 24px;
+
+	position: absolute;
+	bottom: 24px;
+
+	transition: transform 1s;
+}

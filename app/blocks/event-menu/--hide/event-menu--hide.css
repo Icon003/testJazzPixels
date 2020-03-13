@@ -1,0 +1,7 @@
+.event-menu--hide {
+	width: 100%;
+
+	position: absolute;
+
+	transform: translateY(100%);
+}

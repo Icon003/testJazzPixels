@@ -1,0 +1,14 @@
+.map {
+	width: 100%;
+	height: calc(100% - 48px);
+
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	background-image: url(../img/@2x/map.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom center;
+	background-size: cover;
+}

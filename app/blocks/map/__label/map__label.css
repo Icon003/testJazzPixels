@@ -1,0 +1,7 @@
+.map__label {
+	position: absolute;
+
+	font-family: var(--SF-Compact-Display-Semibold);
+
+	color: var(--grey-color-map-label);
+}

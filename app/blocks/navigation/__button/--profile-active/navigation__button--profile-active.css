@@ -1,0 +1,5 @@
+.navigation__button--profile-active {
+	background: url(../img/profile-active.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}

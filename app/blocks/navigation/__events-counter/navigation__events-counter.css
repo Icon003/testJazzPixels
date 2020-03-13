@@ -1,0 +1,20 @@
+.navigation__events-counter {
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+
+	width: 15px;
+	height: 15px;
+	margin-left: 53.75%;
+
+	position: absolute;
+	top: 5px;
+
+	font-family: var(--SF-Compact-Display-Semibold);
+	font-size: 8px;
+
+	color: var(--grey-color);
+	border-radius: 100%;
+	background: var(--blue-color);
+}

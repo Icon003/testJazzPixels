@@ -1,0 +1,5 @@
+.navigation__button--search-active {
+	background: url(../img/search-active.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}

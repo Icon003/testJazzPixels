@@ -1,0 +1,13 @@
+.event-menu__title-menu {
+	overflow: hidden;
+
+	margin-bottom: 11px;
+
+	font-size: 26px;
+	line-height: 31px;
+
+	color: var(--white-color);
+
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

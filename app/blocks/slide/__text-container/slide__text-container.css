@@ -1,0 +1,12 @@
+.slide__text-container {
+	visibility: hidden;
+
+	height: 100%;
+
+	position: absolute;
+	top: 0;
+
+	opacity: 1;
+
+	transition: transform 3s;
+}

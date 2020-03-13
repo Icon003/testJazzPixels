@@ -1,0 +1,13 @@
+.event-menu__scroll-container {
+	display: flex;
+	overflow-x: hidden;
+	overflow-y: scroll;
+
+	flex-direction: column;
+
+	width: 100%;
+	height: calc(100% - 154px);
+
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}

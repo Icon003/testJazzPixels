@@ -1,0 +1,12 @@
+.event-menu__additional-text {
+	overflow: hidden;
+
+	font-family: var(--SF-Compact-Display-Semibold);
+	font-size: 14px;
+	line-height: 17px;
+
+	color: var(--grey-color);
+
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}

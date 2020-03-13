@@ -1,0 +1,15 @@
+.feed-item__icon-new-event-container {
+	display: flex;
+
+	align-items: center;
+
+	width: 100%;
+	padding-right: 12px;
+
+	position: absolute;
+	top: 24px;
+	left: 0;
+
+	transition: transform 0.3s;
+	transform: translateX(0);
+}

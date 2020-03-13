@@ -1,0 +1,21 @@
+.map__point--active {
+	width: 14px;
+	height: 14px;
+
+	position: absolute;
+}
+
+.map__point--active::before {
+	width: 26px;
+	height: 26px;
+
+	position: absolute;
+	top: -6px;
+	left: -6px;
+
+	opacity: 0.4;
+	border-radius: 100%;
+	background: var(--orange-gradient);
+
+	content: "";
+}

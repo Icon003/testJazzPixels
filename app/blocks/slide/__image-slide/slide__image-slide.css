@@ -1,0 +1,7 @@
+
+.slide__image-slide {
+	opacity: 0.4;
+	border-radius: 8px;
+
+	transition: margin 0.5s;
+}

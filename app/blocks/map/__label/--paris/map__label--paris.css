@@ -1,0 +1,7 @@
+.map__label--paris {
+	top: 40.25%;
+	right: 8.75%;
+
+	font-family: var(--SF-Compact-Display-Regular);
+	font-size: 10px;
+}

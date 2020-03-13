@@ -1,0 +1,7 @@
+.slide__additional-label-container {
+	display: flex;
+
+	margin-top: 15px;
+
+	font-family: var(--SF-Compact-Display-Semibold);
+}

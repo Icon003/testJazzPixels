@@ -1,0 +1,5 @@
+.navigation__button--search {
+	background: url(../img/search.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}

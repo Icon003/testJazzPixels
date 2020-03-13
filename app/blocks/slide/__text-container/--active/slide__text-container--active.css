@@ -1,0 +1,6 @@
+.slide__text-container--active {
+	display: flex;
+	visibility: visible;
+
+	flex-direction: column;
+}

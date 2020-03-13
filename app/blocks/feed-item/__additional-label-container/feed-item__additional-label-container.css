@@ -1,0 +1,14 @@
+.feed-item__additional-label-container {
+	display: flex;
+
+	align-items: center;
+
+	width: 100%;
+	padding-right: 12px;
+
+	position: absolute;
+	left: 0;
+
+	transition: transform 0.3s;
+	transform: translateY(0);;
+}

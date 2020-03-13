@@ -1,0 +1,7 @@
+.feed-media__text-media {
+	font-family: var(--SF-Compact-Display-Semibold);
+	font-size: 14px;
+	line-height: 16px;
+
+	color: var(--grey-color);
+}

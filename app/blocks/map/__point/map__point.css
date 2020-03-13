@@ -1,0 +1,12 @@
+.map__point {
+	width: 18px;
+	height: 18px;
+
+	position: absolute;
+	top: 30%;
+	left: 57.5%;
+
+	border: none;
+	border-radius: 100%;
+	background: var(--orange-gradient);
+}

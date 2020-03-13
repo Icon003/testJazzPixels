@@ -1,0 +1,6 @@
+.feed-item__additional-text {
+	font-family: var(--SF-Compact-Display-Regular);
+	font-size: 14px;
+
+	color: var(--grey-color);
+}

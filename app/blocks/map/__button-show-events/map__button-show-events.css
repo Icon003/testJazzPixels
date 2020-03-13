@@ -1,0 +1,14 @@
+.map__button-show-events {
+	width: 42px;
+	height: 42px;
+
+	position: relative;
+
+	border: none;
+	border-radius: 100%;
+	background: url(../img/show-events.svg);
+	background-color: var(--background-black-color);
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: var(--shadow-button-map);
+}

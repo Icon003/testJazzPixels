@@ -1,0 +1,7 @@
+.navigation__button--events {
+	position: relative;
+
+	background: url(../img/events.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}

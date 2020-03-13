@@ -1,0 +1,12 @@
+.map__button-position {
+	width: 42px;
+	height: 42px;
+
+	border: none;
+	border-radius: 100%;
+	background: url(../img/map-point.svg);
+	background-color: var(--background-black-color);
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: var(--shadow-button-map);
+}

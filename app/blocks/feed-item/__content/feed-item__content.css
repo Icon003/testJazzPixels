@@ -1,0 +1,11 @@
+.feed-item__content {
+	padding-right: 12px;
+	padding-left: 12px;
+
+	position: relative;
+
+	transition: transform 0.3s;
+	transform: translateX(0);
+
+	will-change: transform;
+}

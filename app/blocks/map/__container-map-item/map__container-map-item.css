@@ -1,0 +1,4 @@
+.map__container-map-item {
+	opacity: 1;
+	transition: opacity .3s ease;
+}
