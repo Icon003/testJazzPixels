@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/@1x/favicon.png">
+	<title>Map</title>
+	<link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+	<div id="map" class="map">
+		<div class="map__container-map-item">
+			<button class="map__point"></button>
+			<button class="map__point map__point--paris map__point--active"></button>
+			<p class="map__label map__label--city map__label--paris">Paris</p>
+			<p class="map__label map__label--country map__label--france">France</p>
+			<p class="map__label map__label--country map__label--spain">Spain</p>
+		</div>
+
+		<div class="event-menu event-menu--hide">
+			<header class="event-menu__header-menu">
+				<h1 class="event-menu__title-menu">Events</h1>
+				<p class="event-menu__additional-text">232 Upcoming Events</p>
+			</header>
+			<div class="event-menu__area-close-event-menu"></div>
+			<div class="event-menu__scroll-container">
+				<ul class="event-menu__event-list">
+					<li class="feed-item feed-item--first">
+						<button class="feed-item__bookmark-button">
+							<img class="feed-item__bookmark-button-icon" src="img/bookmark-icon.svg" alt="">
+						</button>
+						<div class="feed-item__content feed-item__content--event">
+							<div class="feed-item__icon-new-event-container">
+								<span class="feed-item__icon-new-event"></span>
+							</div>
+							<div class="feed-item__additional-label-container feed-item__additional-label-container--hide">
+								<p class="feed-item__additional-text"></p>
+								<img src="img/orange-bookmark-icon.svg" alt="" class="feed-item__additional-icon">
+							</div>
+							<img src="img/@2x/image4.png" alt="" class="feed-item__image feed-item__image--event">
+							<div class="feed-item__text-container feed-item__text-container--event">
+								<h3 class="feed-item__title-media feed-item__title-media--event feed-item__title-media--uni-neue">King or queen of the<br> circle 2018</h3>
+								<span class="feed-media__text-media">Houston, United States <br> 13 October</span>
+							</div>
+						</div>
+					</li>
+					<li class="feed-item">
+						<button class="feed-item__bookmark-button">
+							<img class="feed-item__bookmark-button-icon" src="img/bookmark-icon.svg" alt="">
+						</button>
+						<div class="feed-item__content feed-item__content--event">
+							<div class="feed-item__icon-new-event-container">
+								<span class="feed-item__icon-new-event"></span>
+							</div>
+							<div class="feed-item__additional-label-container feed-item__additional-label-container--hide">
+								<p class="feed-item__additional-text"></p>
+								<img src="img/orange-bookmark-icon.svg" alt="" class="feed-item__additional-icon">
+							</div>
+							<img src="img/@2x/event-image1.png" alt="" class="feed-item__image feed-item__image--event">
+							<div class="feed-item__text-container feed-item__text-container--event">
+								<h3 class="feed-item__title-media feed-item__title-media--event feed-item__title-media--uni-neue">King or queen of the<br> circle 2018</h3>
+								<span class="feed-media__text-media">Houston, United States <br> 13 October</span>
+							</div>
+						</div>
+					</li>
+					<li class="feed-item">
+						<button class="feed-item__bookmark-button">
+							<img class="feed-item__bookmark-button-icon" src="img/bookmark-icon.svg" alt="">
+						</button>
+						<div class="feed-item__content feed-item__content--event">
+							<div class="feed-item__icon-new-event-container feed-item__icon-new-event-container--hide">
+								<span class="feed-item__icon-new-event"></span>
+							</div>
+							<div class="feed-item__additional-label-container">
+								<p class="feed-item__additional-text"></p>
+								<img src="img/orange-bookmark-icon.svg" alt="" class="feed-item__additional-icon">
+							</div>
+							<img src="img/@2x/event-image2.png" alt="" class="feed-item__image feed-item__image--event">
+							<div class="feed-item__text-container feed-item__text-container--event">
+								<h3 class="feed-item__title-media feed-item__title-media--event feed-item__title-media--uni-neue">King or queen of the<br> circle 2018</h3>
+								<span class="feed-media__text-media">Houston, United States <br> 13 October</span>
+							</div>
+						</div>
+					</li>
+					<li class="feed-item">
+						<button class="feed-item__bookmark-button">
+							<img class="feed-item__bookmark-button-icon" src="img/bookmark-icon.svg" alt="">
+						</button>
+						<div class="feed-item__content feed-item__content--event">
+							<div class="feed-item__icon-new-event-container">
+								<span class="feed-item__icon-new-event"></span>
+							</div>
+							<div class="feed-item__additional-label-container feed-item__additional-label-container--hide">
+								<p class="feed-item__additional-text"></p>
+								<img src="img/orange-bookmark-icon.svg" alt="" class="feed-item__additional-icon">
+							</div>
+							<img src="img/@2x/event-image3.png" alt="" class="feed-item__image feed-item__image--event">
+							<div class="feed-item__text-container feed-item__text-container--event">
+								<h3 class="feed-item__title-media feed-item__title-media--event feed-item__title-media--uni-neue">King or queen of the<br> circle 2018</h3>
+								<span class="feed-media__text-media">Houston, United States <br> 13 October</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="map__button-container">
+			<button id="buttonMapShowEvents" class="map__button-show-events">
+				<span class="map__button-show-events-counter">232</span>
+			</button>
+			<button class="map__button-position"></button>
+		</div>
+		<nav class="navigation">
+			<ul class="navigation__list">
+				<li class="navigation__list-item">
+					<button data-name="feeds" class="navigation__button navigation__button--feeds"></button>
+				</li>
+				<li class="navigation__list-item">
+					<button data-name="events" class="navigation__button navigation__button--events navigation__button--active navigation__button--events-active">
+						<span class="navigation__events-counter">28</span>
+					</button>
+				</li>
+				<li class="navigation__list-item">
+					<button data-name="search" class="navigation__button navigation__button--search"></button>
+				</li>
+				<li class="navigation__list-item">
+					<button data-name="profile" class="navigation__button navigation__button--profile"></button>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<script src="js/libs.min.js"></script>
+	<script src="js/map.min.js"></script>
+	<script src="js/event-menu.min.js"></script>
+	<script src="js/feed-item.min.js"></script>
+	<script src="js/navigation.min.js"></script>
+</body>
+</html>
