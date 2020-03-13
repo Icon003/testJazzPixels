@@ -28,9 +28,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Добавляем классы
                 this.classList.add(...classesToAdd);
                 if(dataButtonNavigation == "events") {
-                    document.location.href = "/map.html";
+                    document.location.href = "map.html";
                 } else if (dataButtonNavigation == "feeds") {
-                    document.location.href = "/index.html";
+                    document.location.href = "/";
                 }
             }
         });
