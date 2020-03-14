@@ -9,4 +9,8 @@ nmp install
 gulp
 ```
 ## Посмотреть проект можно
-[Тут](https://icon003.github.io/testJazzPixels/)
+### [Тут](https://icon003.github.io/testJazzPixels/)
+#### Элементы интерактивны!
+
+
+
